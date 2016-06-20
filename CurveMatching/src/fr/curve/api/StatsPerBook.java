@@ -24,7 +24,6 @@ public class StatsPerBook {
 					e.printStackTrace();
 				}	
 					String []oeuvreParPartie=wholeText.split("\nPartie [1-9]");
-//					System.out.println("Pour le fichier "+file.getName()+", il y a "+oeuvreParPartie.length+" partie(s)");
 					List<String[]>chapitresParOeuvre=new ArrayList<String[]>();
 				if (oeuvreParPartie.length>1){
 					List<String>chapitreParPartie=new ArrayList<String>();
@@ -45,7 +44,13 @@ public class StatsPerBook {
 					}
 				}
 				else{
-					
+					String oeuvreParChapitres[]=wholeText.split("Chapitre [0-9]+");
+					String numChapEtTxt[]=new String[2];
+					for(int counterChapitre=1; counterChapitre<oeuvreParChapitres.length+1;counterChapitre++){
+						numChapEtTxt[0]="Chapitre "+counterChapitre;
+						numChapEtTxt[1]=oeuvreParChapitres[counterChapitre-1];
+						chapitresParOeuvre.add(numChapEtTxt);
+					}
 				}
 				mapDesOeuvres.put(file.getName(), chapitresParOeuvre);
 			}
