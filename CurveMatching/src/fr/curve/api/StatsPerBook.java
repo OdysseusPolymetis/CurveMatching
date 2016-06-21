@@ -5,11 +5,13 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import fr.curve.utils.ExportToCSV;
 import fr.curve.utils.RomanNumbers;
 
 public class StatsPerBook {
@@ -117,7 +119,7 @@ public class StatsPerBook {
 			}
 		}
 		
-		HashMap<String, List<int[]>> mapDesPourcentages=new HashMap<String, List<int[]>>();
+		LinkedHashMap<String, List<int[]>> mapDesPourcentages=new LinkedHashMap<String, List<int[]>>();
 		
 		for (String fileName:mapDesOeuvres.keySet()){
 			List<int[]>listeDesPourcentagesParTexte=new ArrayList<int[]>();
@@ -128,10 +130,18 @@ public class StatsPerBook {
 				int []tableauDesStats=new int[2];
 				tableauDesStats[0]=(Integer.valueOf(tableauValeursParChapitre[0])*100)/Integer.valueOf(tableauValeursParChapitre[3]); //numero relatif du chapitre
 				tableauDesStats[1]=(Integer.valueOf(tableauValeursParChapitre[2])*100)/Integer.valueOf(tableauValeursParChapitre[4]); //nombre relatif de tokens
+				
 				listeDesPourcentagesParTexte.add(tableauDesStats);
 			}
+//			System.out.println(listeDesPourcentagesParTexte.size());
 			mapDesPourcentages.put(fileName, listeDesPourcentagesParTexte);
+			
 		}
-		System.out.println("xxxxxxxxxxxxxxxxxxx "+mapDesPourcentages.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(12)[1]+" xxxxxxxxxxxxxxxxxxx");	
+		
+//		for (String key:mapDesPourcentages.keySet()){
+			ExportToCSV.exportToCSV("./CSVOutput/", "output",mapDesPourcentages);
+//		}
+		
+//		System.out.println("xxxxxxxxxxxxxxxxxxx "+mapDesPourcentages.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(12)[0]+" xxxxxxxxxxxxxxxxxxx");	
 	}
 }
