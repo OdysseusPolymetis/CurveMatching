@@ -116,6 +116,22 @@ public class StatsPerBook {
 				mapDesOeuvres.put(file.getName(), chapitresParOeuvre);
 			}
 		}
-		System.out.println("xxxxxxxxxxxxxxxxxxx "+mapDesOeuvres.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(13)[0]+" xxxxxxxxxxxxxxxxxxx");	
+		
+		HashMap<String, List<int[]>> mapDesPourcentages=new HashMap<String, List<int[]>>();
+		
+		for (String fileName:mapDesOeuvres.keySet()){
+			List<int[]>listeDesPourcentagesParTexte=new ArrayList<int[]>();
+			List<String[]>cloneDesValeursAbsoluesParChapitre=new ArrayList<String[]>();
+			cloneDesValeursAbsoluesParChapitre.addAll(mapDesOeuvres.get(fileName));
+			for (int indexMap=0; indexMap<cloneDesValeursAbsoluesParChapitre.size(); indexMap++){
+				String []tableauValeursParChapitre=cloneDesValeursAbsoluesParChapitre.get(indexMap);
+				int []tableauDesStats=new int[2];
+				tableauDesStats[0]=(Integer.valueOf(tableauValeursParChapitre[0])*100)/Integer.valueOf(tableauValeursParChapitre[3]); //numero relatif du chapitre
+				tableauDesStats[1]=(Integer.valueOf(tableauValeursParChapitre[2])*100)/Integer.valueOf(tableauValeursParChapitre[4]); //nombre relatif de tokens
+				listeDesPourcentagesParTexte.add(tableauDesStats);
+			}
+			mapDesPourcentages.put(fileName, listeDesPourcentagesParTexte);
+		}
+		System.out.println("xxxxxxxxxxxxxxxxxxx "+mapDesPourcentages.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(12)[1]+" xxxxxxxxxxxxxxxxxxx");	
 	}
 }
