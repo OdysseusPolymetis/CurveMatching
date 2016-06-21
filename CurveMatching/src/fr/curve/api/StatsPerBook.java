@@ -5,7 +5,9 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.StringTokenizer;
 
 public class StatsPerBook {
 
@@ -23,39 +25,48 @@ public class StatsPerBook {
 				} catch (IOException e) {
 					e.printStackTrace();
 				}	
-					String []oeuvreParPartie=wholeText.split("\nPartie [1-9]");
-					List<String[]>chapitresParOeuvre=new ArrayList<String[]>();
-				if (oeuvreParPartie.length>1){
-					List<String>chapitreParPartie=new ArrayList<String>();
-					for (String partie:oeuvreParPartie){
+					String []Parties=wholeText.split("\nPartie [0-9]");
+					LinkedList<String[]>chapitresParOeuvre=new LinkedList<String[]>();
+				if (Parties.length>1&&file.getName().contains("Debacle")){
+					
+					LinkedList<String>chapitresToutesParties=new LinkedList<String>();
+					int chapitresPrecedents=0;
+					for (String partie:Parties){
 						partie=partie.replaceAll("[\\t\\n\\r]+", " ");
-						String []chapitres=partie.split("Chapitre [1-9]+");
+						String []chapitres=partie.split("Chapitre [0-9]+");
 						for (String str:chapitres){
-							chapitreParPartie.add(str);
+							if (!str.matches("[\\t\\n\\r\\s]+")&&!str.matches("[\\t\\n\\r\\s]*Partie [0-9]+[\\t\\n\\r\\s]*")){	
+								chapitresToutesParties.add(str);
+							}
 						}
-						
-						for(int counterChapitre=1; counterChapitre<chapitreParPartie.size()+1;counterChapitre++){
-							String numChapEtTxt[]=new String[2];
-							numChapEtTxt[0]="Chapitre "+counterChapitre;
-							numChapEtTxt[1]=chapitreParPartie.get(counterChapitre-1);
-							chapitresParOeuvre.add(numChapEtTxt);
+						for(int counterChapitre=0; counterChapitre<chapitresToutesParties.size();counterChapitre++){
+							if (chapitresToutesParties.size()>=(counterChapitre+chapitresPrecedents+1)){
+								String numChapEtTxt[]=new String[3];
+								numChapEtTxt[0]="Chapitre "+(counterChapitre+chapitresPrecedents+1);//le nom du chapitre
+								numChapEtTxt[1]=chapitresToutesParties.get(counterChapitre+chapitresPrecedents);//le texte du chapitre
+								StringTokenizer st = new StringTokenizer(chapitresToutesParties.get(counterChapitre+chapitresPrecedents));
+								numChapEtTxt[2]=String.valueOf(st.countTokens());//le nombre de mots du chapitre
+								chapitresParOeuvre.add(numChapEtTxt);
+							}
 						}
+						chapitresPrecedents=chapitresToutesParties.size();
 					}
 				}
 				else{
-					String oeuvreParChapitres[]=wholeText.split("Chapitre [0-9]+");
-					
+					String oeuvreParChapitres[]=wholeText.split("Chapitre [0-9]+");	
 					for(int counterChapitre=0; counterChapitre<oeuvreParChapitres.length;counterChapitre++){
 						oeuvreParChapitres[counterChapitre]=oeuvreParChapitres[counterChapitre].replaceAll("[\\t\\n\\r]+", " ");
-						String numChapEtTxt[]=new String[2];
-						numChapEtTxt[0]="Chapitre "+(counterChapitre);
-						numChapEtTxt[1]=oeuvreParChapitres[counterChapitre];
+						String numChapEtTxt[]=new String[3];
+						numChapEtTxt[0]="Chapitre "+(counterChapitre+1); //le nom du chapitre
+						numChapEtTxt[1]=oeuvreParChapitres[counterChapitre]; //le texte du chapitre
+						StringTokenizer st = new StringTokenizer(oeuvreParChapitres[counterChapitre]);
+						numChapEtTxt[2]=String.valueOf(st.countTokens()); //le nombre de mots du chapitre
 						chapitresParOeuvre.add(numChapEtTxt);
 					}
 				}
 				mapDesOeuvres.put(file.getName(), chapitresParOeuvre);
 			}
 		}
-		System.out.println(mapDesOeuvres.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(14)[1]);
+		System.out.println(mapDesOeuvres.get("Emile Zola-La Debacle-Gallimard (1984).txt").get(23)[1]);	
 	}
 }
