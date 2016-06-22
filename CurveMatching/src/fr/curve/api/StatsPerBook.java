@@ -119,29 +119,24 @@ public class StatsPerBook {
 			}
 		}
 		
-		LinkedHashMap<String, List<int[]>> mapDesPourcentages=new LinkedHashMap<String, List<int[]>>();
+		LinkedHashMap<String, List<float[]>> mapDesPourcentages=new LinkedHashMap<String, List<float[]>>();
 		
 		for (String fileName:mapDesOeuvres.keySet()){
-			List<int[]>listeDesPourcentagesParTexte=new ArrayList<int[]>();
+			List<float[]>listeDesPourcentagesParTexte=new ArrayList<float[]>();
 			List<String[]>cloneDesValeursAbsoluesParChapitre=new ArrayList<String[]>();
 			cloneDesValeursAbsoluesParChapitre.addAll(mapDesOeuvres.get(fileName));
 			for (int indexMap=0; indexMap<cloneDesValeursAbsoluesParChapitre.size(); indexMap++){
 				String []tableauValeursParChapitre=cloneDesValeursAbsoluesParChapitre.get(indexMap);
-				int []tableauDesStats=new int[2];
-				tableauDesStats[0]=(Integer.valueOf(tableauValeursParChapitre[0])*100)/Integer.valueOf(tableauValeursParChapitre[3]); //numero relatif du chapitre
-				tableauDesStats[1]=(Integer.valueOf(tableauValeursParChapitre[2])*100)/Integer.valueOf(tableauValeursParChapitre[4]); //nombre relatif de tokens
+				float []tableauDesStats=new float[3];
+				tableauDesStats[0]=(Float.valueOf(tableauValeursParChapitre[0])*100)/Float.valueOf(tableauValeursParChapitre[3]); //numero relatif du chapitre
+				tableauDesStats[1]=(Float.valueOf(tableauValeursParChapitre[2])*100)/Float.valueOf(tableauValeursParChapitre[4]); //nombre relatif de tokens
+				tableauDesStats[2]=Float.valueOf(tableauValeursParChapitre[3]);
 				
 				listeDesPourcentagesParTexte.add(tableauDesStats);
 			}
-//			System.out.println(listeDesPourcentagesParTexte.size());
 			mapDesPourcentages.put(fileName, listeDesPourcentagesParTexte);
 			
 		}
-		
-//		for (String key:mapDesPourcentages.keySet()){
 			ExportToCSV.exportToCSV("./CSVOutput/", "output",mapDesPourcentages);
-//		}
-		
-//		System.out.println("xxxxxxxxxxxxxxxxxxx "+mapDesPourcentages.get("Emile Zola-Au Bonheur des Dames (1972).txt").get(12)[0]+" xxxxxxxxxxxxxxxxxxx");	
 	}
 }

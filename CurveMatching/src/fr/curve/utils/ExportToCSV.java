@@ -13,36 +13,61 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.NavigableMap;
 
+import javax.swing.plaf.basic.BasicInternalFrameTitlePane.MaximizeAction;
+
 public class ExportToCSV {
-	public static void exportToCSV(String folderPath, String fileName,HashMap<String,List<int []>> stats)
+	public static void exportToCSV(String folderPath, String fileName,HashMap<String,List<float []>> stats)
 	{	
 		try
 		{
 			Path path = Paths.get(folderPath);
 
 
-			File file =new File(folderPath+fileName+".tsv");
+			File file =new File(folderPath+fileName+".csv");
 			if (!file.getParentFile().isDirectory()){
 				Files.createDirectories(path);
 			}
 
 			FileWriter writer = new FileWriter(file);
 			
-			for (Entry <String,List<int []>>entry:stats.entrySet()){
-				int[]pourcentage=new int[101];
-				for (int[] percents:entry.getValue()){
-					pourcentage[percents[0]]=percents[1];
+			for (Entry <String,List<float []>>entry:stats.entrySet()){
+				float[]pourcentage=new float[101];
+				for (float[] percents:entry.getValue()){
+					pourcentage[(int) percents[0]]=percents[1];
 				}
-				for (int counter=1;counter<101; counter++){
-					if (pourcentage[counter]==0){
-						pourcentage[counter]=pourcentage[counter-1];
+				for (int counter=0;counter<101; counter++){
+					if (pourcentage[counter]==0&&counter==0){
+						int secondIndex=counter;
+						float max=0;
+						while (pourcentage[secondIndex]==0){
+							secondIndex++;
+							max=pourcentage[secondIndex];
+						}
+						for (int reagencement=0;reagencement<secondIndex+1; reagencement++){
+							pourcentage[reagencement]=max/secondIndex;
+						}
+					}
+					else if (pourcentage[counter]==0&&counter!=0){
+						int secondIndex=counter;
+						float max=0;
+						while (pourcentage[secondIndex]==0){
+							secondIndex++;
+							max=pourcentage[secondIndex];
+						}
+						for (int reagencement=counter;reagencement<secondIndex+1; reagencement++){
+							pourcentage[reagencement]=max/(secondIndex-counter+1);
+						}
 					}
 				}
 				writer.append(entry.getKey()+"\t");
-				System.out.println("XXXXXXXXXXXXXXXXXXXXXXXXXXXXX changement de fichier XXXXXXXXXXXXXXXXXXXXXXXXXXXX");
-				for (int percent:pourcentage){
-					System.out.println(percent);
-					writer.append(percent+"\t");
+				for (int indexAppend=0; indexAppend<pourcentage.length;indexAppend++){
+					if (indexAppend==pourcentage.length-1){
+						writer.append(""+pourcentage[indexAppend]);
+					}
+					else{
+						writer.append(pourcentage[indexAppend]+"\t");
+					}
+					
 				}
 				writer.append('\n');
 			}
