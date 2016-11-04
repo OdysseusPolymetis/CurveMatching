@@ -60,7 +60,7 @@ public class ExportToCSV {
 						}
 					}
 				}
-//				writer.append(entry.getKey()+"\t");
+				writer.append(entry.getKey()+"\t");
 				for (int indexAppend=0; indexAppend<pourcentage.length;indexAppend++){
 					if (indexAppend==pourcentage.length-1){
 						writer.append(""+pourcentage[indexAppend]);
