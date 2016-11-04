@@ -1,20 +1,4 @@
-Émile Zola
-
-
-
-
-NANA
-
-
-
-
-(1880)
-
-
-
-
-
-Chapitre I
+Chapitre 1
 
 À neuf heures, la salle du théâtre des Variétés était encore vide. Quelques personnes, au balcon et à l’orchestre, attendaient, perdues parmi les fauteuils de velours grenat, dans le petit jour du lustre à demi-feux. Une ombre noyait la grande tache rouge du rideau ; et pas un bruit ne venait de la scène, la rampe éteinte, les pupitres des musiciens débandés. En haut seulement, à la troisième galerie, autour de la rotonde du plafond où des femmes et des enfants nus prenaient leur volée dans un ciel verdi par le gaz, des appels et des rires sortaient d’un brouhaha continu de voix, des têtes coiffées de bonnets et de casquettes s’étageaient sous les larges baies rondes, encadrées d’or. Par moments, une ouvreuse se montrait, affairée, des coupons à la main, poussant devant elle un monsieur et une dame qui s’asseyaient, l’homme en habit, la femme mince et cambrée, promenant un lent regard.
 
@@ -398,7 +382,7 @@ Mais Bordenave, se fâchant, montrant d’un mouvement brusque du menton le publ
 
 
 
-Chapitre II
+Chapitre 2
 
 Le lendemain, à dix heures, Nana dormait encore. Elle occupait, boulevard Haussmann, le second étage d’une grande maison neuve, dont le propriétaire louait à des dames seules, pour leur faire essuyer les plâtres. Un riche marchand de Moscou, qui était venu passer un hiver à Paris, l’avait installée là, en payant six mois d’avance. L’appartement, trop vaste pour elle, n’avait jamais été meublé complètement ; et un luxe criard, des consoles et des chaises dorées s’y heurtaient à du bric-à-brac de revendeuse, des guéridons d’acajou, des candélabres de zinc jouant le bronze florentin. Cela sentait la fille lâchée trop tôt par son premier monsieur sérieux, retombée à des amants louches, tout un début difficile, un lançage manqué, entravé par des refus de crédit et des menaces d’expulsion.
 
@@ -852,7 +836,7 @@ Une queue dans l’escalier ! Francis lui-même, malgré le flegme anglais qu’
 
 
 
-Chapitre III
+Chapitre 3
 
 La comtesse Sabine, comme on avait pris l’habitude de nommer Mme Muffat de Beuville, pour la distinguer de la mère du comte, morte l’année précédente, recevait tous les mardis, dans son hôtel de la rue Miromesnil, au coin de la rue de Penthièvre. C’était un vaste bâtiment carré, habité par les Muffat depuis plus de cent ans ; sur la rue, la façade dormait, haute et noire, d’une mélancolie de couvent, avec d’immenses persiennes qui restaient presque toujours fermées ; derrière, dans un bout de jardin humide, des arbres avaient poussé, cherchant le soleil, si longs et si grêles, qu’on en voyait les branches, par-dessus les ardoises.
 
@@ -1252,7 +1236,7 @@ Et, sur le trottoir, en se séparant, on répéta encore :
 
 
 
-Chapitre IV
+Chapitre 4
 
 Depuis le matin, Zoé avait livré l’appartement à un maître d’hôtel, venu de chez Brébant avec un personnel d’aides et de garçons. C’était Brébant qui devait tout fournir, le souper, la vaisselle, les cristaux, le linge, les fleurs, jusqu’à des sièges et à des tabourets. Nana n’aurait pas trouvé une douzaine de serviettes au fond de ses armoires ; et, n’ayant pas encore eu le temps de se monter dans son nouveau lançage, dédaignant d’aller au restaurant, elle avait préféré faire venir le restaurant chez elle. Ça lui semblait plus chic. Elle voulait fêter son grand succès d’actrice par un souper, dont on parlerait. Comme la salle à manger était trop petite, le maître d’hôtel avait dressé la table dans le salon, une table où tenaient vingt-cinq couverts, un peu serrés.
 
@@ -1690,7 +1674,7 @@ Blanche se leva paresseusement. Cette fois, la face congestionnée du banquier b
 
 
 
-Chapitre V
+Chapitre 5
 
 On donnait, aux Variétés, la trente-quatrième représentation de La Blonde Vénus. Le premier acte venait de finir. Dans le foyer des artistes, Simonne, en petite blanchisseuse, était debout devant la console surmontée d’une glace, entre les deux portes d’angle, s’ouvrant en pan coupé sur le couloir des loges. Toute seule, elle s’étudiait et se passait un doigt sous les yeux, pour corriger son maquillage ; tandis que des becs de gaz, aux deux côtés de la glace, la chauffaient d’un coup de lumière crue.
 
@@ -2184,7 +2168,7 @@ Muffat se trouva seul sur le trottoir. Son Altesse venait tranquillement de fair
 
 
 
-Chapitre VI
+Chapitre 6
 
 Le comte Muffat, accompagné de sa femme et de sa fille, était arrivé de la veille aux Fondettes, où Mme Hugon, qui s’y trouvait seule avec son fils Georges, les avait invités à venir passer huit jours. La maison, bâtie vers la fin du dix-septième siècle, s’élevait au milieu d’un immense enclos carré, sans un ornement ; mais le jardin avait des ombrages magnifiques, une suite de bassins aux eaux courantes, alimentés par des sources. C’était, le long de la route d’Orléans à Paris, comme un flot de verdure, un bouquet d’arbres, rompant la monotonie de ce pays plat, où des cultures se déroulaient à l’infini.
 
@@ -2610,7 +2594,7 @@ Et elle coucha avec Muffat, mais sans plaisir.
 
 
 
-Chapitre VII
+Chapitre 7
 
 Trois mois plus tard, un soir de décembre, le comte Muffat se promenait dans le passage des Panoramas. La soirée était très douce, une averse venait d’emplir le passage d’un flot de monde. Il y avait là une cohue, un défilé pénible et lent, resserré entre les boutiques. C’était, sous les vitres blanchies de reflets, un violent éclairage, une coulée de clartés, des globes blancs, des lanternes rouges, des transparents bleus, des rampes de gaz, des montres et des éventails géants en traits de flamme, brûlant en l’air ; et le bariolage des étalages, l’or des bijoutiers, les cristaux des confiseurs, les soies claires des modistes, flambaient, derrière la pureté des glaces, dans le coup de lumière crue des réflecteurs ; tandis que, parmi la débandade peinturlurée des enseignes, un énorme gant de pourpre, au loin, semblait une main saignante, coupée et attachée par une manchette jaune.
 
@@ -3042,7 +3026,7 @@ Lorsque Muffat rentra enfin à son hôtel de la rue Miromesnil, sa femme justeme
 
 
 
-Chapitre VIII
+Chapitre 8
 
 C’était rue Véron, à Montmartre, dans un petit logement, au quatrième étage. Nana et Fontan avaient invité quelques amis pour tirer le gâteau des Rois. Ils pendaient la crémaillère, installés seulement depuis trois jours.
 
@@ -3458,7 +3442,7 @@ Mais Mme Lerat voulut que Nana embrassât tout de suite Louiset, parce que, disa
 
 
 
-Chapitre IX
+Chapitre 9
 
 On répétait aux Variétés La Petite Duchesse. Le premier acte venait d’être débrouillé, et l’on allait commencer le second. À l’avant-scène, dans de vieux fauteuils, Fauchery et Bordenave discutaient, tandis que le souffleur, le père Cossard, un petit bossu, assis sur une chaise de paille, feuilletait le manuscrit, un crayon aux lèvres.
 
@@ -3948,7 +3932,7 @@ Un mois plus tard, la première représentation de La Petite Duchesse fut, pour 
 
 
 
-Chapitre X
+Chapitre 10
 
 Alors, Nana devint une femme chic, rentière de la bêtise et de l’ordure des mâles, marquise des hauts trottoirs. Ce fut un lançage brusque et définitif, une montée dans la célébrité de la galanterie, dans le plein jour des folies de l’argent et des audaces gâcheuses de la beauté. Elle régna tout de suite parmi les plus chères. Ses photographies s’étalaient aux vitrines, on la citait dans les journaux. Quand elle passait en voiture sur les boulevards, la foule se retournait et la nommait, avec l’émotion d’un peuple saluant sa souveraine ; tandis que, familière, allongée dans ses toilettes flottantes, elle souriait d’un air gai, sous la pluie de petites frisures blondes, qui noyaient le bleu cerné de ses yeux et le rouge peint de ses lèvres. Et le prodige fut que cette grosse fille, si gauche à la scène, si drôle dès qu’elle voulait faire la femme honnête, jouait à la ville les rôles de charmeuse, sans un effort. C’étaient des souplesses de couleuvre, un déshabillé savant, comme involontaire, exquis d’élégance, une distinction nerveuse de chatte de race, une aristocratie du vice, superbe, révoltée, mettant le pied sur Paris, en maîtresse toute-puissante. Elle donnait le ton, de grandes dames l’imitaient.
 
@@ -4370,7 +4354,7 @@ Nana se déshabilla dans le cabinet de toilette. Pour aller plus vite, elle avai
 
 
 
-Chapitre XI
+Chapitre 11
 
 Ce dimanche-là, par un ciel orageux des premières chaleurs de juin, on courait le Grand Prix de Paris au bois de Boulogne. Le matin, le soleil s’était levé dans une poussière rousse. Mais, vers onze heures, au moment où les voitures arrivaient à l’hippodrome de Longchamp, un vent du sud avait balayé les nuages ; des vapeurs grises s’en allaient en longues déchirures, des trouées d’un bleu intense s’élargissaient d’un bout à l’autre de l’horizon. Et, dans les coups de soleil qui tombaient entre deux nuées, tout flambait brusquement, la pelouse peu à peu emplie d’une cohue d’équipages, de cavaliers et de piétons, la piste encore vide, avec la guérite du juge, le poteau d’arrivée, les mâts des tableaux indicateurs, puis en face, au milieu de l’enceinte du pesage, les cinq tribunes symétriques, étageant leurs galeries de briques et de charpentes. Au-delà, la vaste plaine s’aplatissait, se noyait dans la lumière de midi, bordée de petits arbres, fermée à l’ouest par les coteaux boisés de Saint-Cloud et de Suresnes, que dominait le profil sévère du mont Valérien.
 
@@ -4862,7 +4846,7 @@ Nana l’écoutait, désillusionnée. Et elle ne trouva que cette phrase :
 
 
 
-Chapitre XII
+Chapitre 12
 
 Vers une heure du matin, dans le grand lit drapé de point de Venise, Nana et le comte ne dormaient pas encore. Il était revenu le soir, après une bouderie de trois jours. La chambre, faiblement éclairée par une lampe, sommeillait, chaude et toute moite d’une odeur d’amour, avec les pâleurs vagues de ses meubles de laque blanche, incrustée d’argent. Un rideau rabattu noyait le lit d’un flot d’ombre. Il y eut un soupir, puis un baiser coupa le silence, et Nana, glissant des couvertures, resta un instant assise au bord des draps, les jambes nues. Le comte, la tête retombée sur l’oreiller, demeurait dans le noir.
 
@@ -5234,7 +5218,7 @@ Dans la chambre obscure, où traînait encore une vague odeur d’éther, leur r
 
 
 
-Chapitre XIII
+Chapitre 13
 
 Vers la fin de septembre, le comte Muffat, qui devait dîner chez Nana le soir, vint au crépuscule l’avertir d’un ordre brusque qu’il avait reçu pour les Tuileries. L’hôtel n’était pas encore allumé, les domestiques riaient très fort à l’office ; il monta doucement l’escalier, où les vitraux luisaient dans une ombre chaude. En haut, la porte du salon ne fit pas de bruit. Un jour rose se mourait au plafond de la pièce ; les tentures rouges, les divans profonds, les meubles de laque, ce fouillis d’étoffes brodées, de bronzes et de faïences dormaient déjà sous une pluie lente de ténèbres, qui noyait les coins, sans un miroitement d’ivoire, ni un reflet d’or. Et là, dans cette obscurité, sur la blancheur seule distincte d’un grand jupon élargi, il aperçut Nana renversée, aux bras de Georges. Toute dénégation était impossible. Il eut un cri étouffé, il resta béant.
 
@@ -5702,7 +5686,7 @@ Labordette et Mignon eurent un sourire. Elle n’était plus triste, elle sourit
 
 
 
-Chapitre XIV
+Chapitre 14
 
 Nana, brusquement, disparut ; un nouveau plongeon, une fugue, une envolée dans des pays baroques. Avant son départ, elle s’était donné l’émotion d’une vente, balayant tout, l’hôtel, les meubles, les bijoux, jusqu’aux toilettes et au linge. On citait des chiffres, les cinq vacations produisirent plus de six cent mille francs. Une dernière fois, Paris l’avait vue dans une féerie : Mélusine, au théâtre de la Gaîté, que Bordenave, sans un sou, venait de prendre par un coup d’audace ; elle se retrouvait là avec Prullière et Fontan, son rôle était une simple figuration, mais un vrai « clou », trois poses plastiques d’une fée puissante et muette. Puis, au milieu de ce grand succès, quand Bordenave, enragé de réclames, allumait Paris par des affiches colossales, on apprit un beau matin qu’elle devait être partie la veille pour Le Caire ; une simple discussion avec son directeur, un mot qui ne lui avait pas convenu, le caprice d’une femme trop riche pour se laisser embêter. D’ailleurs, c’était sa toquade : depuis longtemps elle rêvait d’aller chez les Turcs.
 

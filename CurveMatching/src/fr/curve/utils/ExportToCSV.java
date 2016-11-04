@@ -24,12 +24,13 @@ public class ExportToCSV {
 
 
 			File file =new File(folderPath+fileName+".csv");
+			File fileNames=new File(folderPath+"names.txt");
 			if (!file.getParentFile().isDirectory()){
 				Files.createDirectories(path);
 			}
 
 			FileWriter writer = new FileWriter(file);
-			
+			StringBuilder sbNames=new StringBuilder();
 			for (Entry <String,List<float []>>entry:stats.entrySet()){
 				float[]pourcentage=new float[101];
 				for (float[] percents:entry.getValue()){
@@ -59,7 +60,7 @@ public class ExportToCSV {
 						}
 					}
 				}
-				writer.append(entry.getKey()+"\t");
+//				writer.append(entry.getKey()+"\t");
 				for (int indexAppend=0; indexAppend<pourcentage.length;indexAppend++){
 					if (indexAppend==pourcentage.length-1){
 						writer.append(""+pourcentage[indexAppend]);
@@ -70,8 +71,16 @@ public class ExportToCSV {
 					
 				}
 				writer.append('\n');
+				String nameForFile=entry.getKey();
+				nameForFile=nameForFile.replaceAll("\\s", "_");
+				nameForFile=nameForFile.replaceAll("\\.txt", "");
+				sbNames.append(nameForFile+" ");
 			}
 
+			writer.flush();
+			writer.close();
+			writer=new FileWriter(fileNames);
+			writer.write(sbNames.toString());
 			writer.flush();
 			writer.close();
 		}

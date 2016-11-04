@@ -1,39 +1,4 @@
-The Project Gutenberg EBook of Therese Raquin, by Emile Zola
-
-This eBook is for the use of anyone anywhere at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the Project Gutenberg License included with this eBook or online at www.gutenberg.org
-
-
-Title: Therese Raquin
-
-Author: Emile Zola
-
-Posting Date: October 6, 2011 [EBook #7461] Release Date: February, 2005 [This file was first posted on May 4, 2003]
-
-Language: French
-
-
-*** START OF THIS PROJECT GUTENBERG EBOOK THERESE RAQUIN ***
-
-
-
-
-Produced by Carlo Traverso, Charles Franks and the Online Distributed Proofreading Team
-
-
-
-
-
-ÉMILE ZOLA
-
-
-
-THÉRÈSE RAQUIN
-
-
-
-
-
-I
+Chapitre 1
 
 
 
@@ -79,7 +44,7 @@ Le mari, qui tremblait toujours de fièvre, se mettait au lit; pendant ce temps,
 
 
 
-II
+Chapitre 2
 
 
 
@@ -127,7 +92,7 @@ Le soir, Thérèse, au lieu d'entrer dans sa chambre, qui était à gauche de l'
 
 
 
-III
+Chapitre 3
 
 
 
@@ -183,7 +148,7 @@ Pendant trois ans, les jours se suivirent et se ressemblèrent. Camille ne s'abs
 
 
 
-IV
+Chapitre 4
 
 
 
@@ -211,7 +176,7 @@ La jeune femme se levait péniblement et venait reprendre sa place en face du vi
 
 
 
-V
+Chapitre 5
 
 
 
@@ -307,7 +272,7 @@ Thérèse, ce soir-là, ne chercha pas à descendre à la boutique. Elle resta j
 
 
 
-VI
+Chapitre 6
 
 
 
@@ -365,7 +330,7 @@ Puis, d'un mouvement violent, Laurent se baissa et prit la jeune femme contre sa
 
 
 
-VII
+Chapitre 7
 
 
 
@@ -463,7 +428,7 @@ Laurent se sentait froid aux os. Il trouva ridicule la plaisanterie de Thérèse
 
 
 
-VIII
+Chapitre 8
 
 
 
@@ -497,7 +462,7 @@ Pendant huit mois, dura cette vie de secousses et d'apaisements. Les amants viva
 
 
 
-IX
+Chapitre 9
 
 
 
@@ -619,7 +584,7 @@ Lorsqu'elle se mit au lit, elle trouva les draps froids et humides. Ses membres,
 
 
 
-X
+Chapitre 10
 
 
 
@@ -677,7 +642,7 @@ Pendant cette conversation, Thérèse et Laurent étaient restés silencieux. Il
 
 
 
-XI
+Chapitre 11
 
 
 
@@ -845,7 +810,7 @@ Ce furent les canotiers qui mangèrent le dîner de Camille.
 
 
 
-XII
+Chapitre 12
 
 
 
@@ -919,7 +884,7 @@ Au fond, il était un peu hébété, la fatigue alourdissait ses membres et ses 
 
 
 
-XIII
+Chapitre 13
 
 
 
@@ -969,7 +934,7 @@ Il alla chercher le vieux Michaud et lui dit qu'il venait de reconnaître Camill
 
 
 
-XIV
+Chapitre 14
 
 
 
@@ -1001,7 +966,7 @@ A côté d'elle, Thérèse songeait et attendait. La boutique reprit son calme n
 
 
 
-XV
+Chapitre 15
 
 
 
@@ -1043,7 +1008,7 @@ La jeune femme, vêtue de noir, pâle et recueillie, lui parut avoir une beauté
 
 
 
-XVI
+Chapitre 16
 
 
 
@@ -1109,7 +1074,7 @@ Thérèse le regarda follement; des chaleurs lui brûlaient les mains et le visa
 
 
 
-XVII
+Chapitre 17
 
 
 
@@ -1183,7 +1148,7 @@ Pendant que sa tante parlait, Thérèse regardait fixement Laurent. Sans doute, 
 
 
 
-XVIII
+Chapitre 18
 
 
 
@@ -1217,7 +1182,7 @@ A chaque heure, depuis que leur mariage était décidé entre Thérèse et lui, 
 
 
 
-XIX
+Chapitre 19
 
 
 
@@ -1319,7 +1284,7 @@ Les préparatifs de mariage furent pressés. On abrégea les formalités autant 
 
 
 
-XX
+Chapitre 20
 
 
 
@@ -1365,7 +1330,7 @@ Thérèse se retira presque sur-le-champ, avec Mme Raquin et Suzanne. Les hommes
 
 
 
-XXI
+Chapitre 21
 
 
 
@@ -1533,7 +1498,7 @@ Il se força à rire, sans savoir pourquoi il riait.
 
 
 
-XXII
+Chapitre 22
 
 
 
@@ -1591,7 +1556,7 @@ Laurent, pendant plus de quinze jours, se demanda comment il pourrait bien faire
 
 
 
-XXIII
+Chapitre 23
 
 
 
@@ -1619,7 +1584,7 @@ Et, dans leurs sanglots, il leur sembla entendre les rires de triomphe du noyé,
 
 
 
-XXIV
+Chapitre 24
 
 
 
@@ -1659,7 +1624,7 @@ Telle était l'opinion de toute la société. Il arriva que Thérèse et Laurent
 
 
 
-XXV
+Chapitre 25
 
 
 
@@ -1747,7 +1712,7 @@ Ainsi il n'oserait plus travailler, il redouterait toujours de ressusciter sa vi
 
 
 
-XXVI
+Chapitre 26
 
 
 
@@ -1813,7 +1778,7 @@ Et il la jeta brutalement sur le lit. L'impotente y tomba évanouie. Sa dernièr
 
 
 
-XXVII
+Chapitre 27
 
 
 
@@ -1899,7 +1864,7 @@ La paralytique regardait sa main, abîmée dans un affreux désespoir. Sa main v
 
 
 
-XXVIII
+Chapitre 28
 
 
 
@@ -2003,7 +1968,7 @@ Et tant que duraient leurs emportements, tant qu'ils s'accusaient, la paralytiqu
 
 
 
-XXIX
+Chapitre 29
 
 
 
@@ -2091,7 +2056,7 @@ L'existence de l'assassin était effroyable, depuis le jour où Thérèse avait 
 
 
 
-XXX
+Chapitre 30
 
 
 
@@ -2157,7 +2122,7 @@ Les nombreuses sorties de Thérèse prirent alors une effrayante signification �
 
 
 
-XXXI
+Chapitre 31
 
 
 
@@ -2269,7 +2234,7 @@ Le même jour, Thérèse profita de l'absence de Laurent pour faire repasser un 
 
 
 
-XXXII
+Chapitre 32
 
 
 

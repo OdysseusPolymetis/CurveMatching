@@ -1,6 +1,7 @@
 package fr.curve.api;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
@@ -35,13 +36,26 @@ public class StatsPerBook {
 				
 				String preTraitementChiffresRomains[]=wholeText.split("\\n");
 				int index=0;
+				boolean aTraiter=false;
 				for (String nombre:preTraitementChiffresRomains){
-					Pattern p2=Pattern.compile("\\b.*[A-Z]+\\b");
+					Pattern p1=Pattern.compile("Chapitre [MDCLXVI]+\\b");
+					Matcher m1=p1.matcher(nombre);
+					Pattern p2=Pattern.compile("\\b.*[MDCLXVI]+\\b");
 					Matcher m2=p2.matcher(nombre);
+					int lastNumberFound=0;
+					while (m1.find()){
+						if (RomanNumbers.decode(m1.group().substring(m1.group().lastIndexOf(" ")))>lastNumberFound){
+							preTraitementChiffresRomains[index]=nombre.replace(m1.group(), "Chapitre "+String.valueOf(RomanNumbers.decode(m1.group().substring(m1.group().lastIndexOf(" ")))));
+							aTraiter=true;
+							lastNumberFound=RomanNumbers.decode(m1.group().substring(m1.group().lastIndexOf(" ")));
+						}
+					}
 					while (m2.find()){
 						if (nombre.length()<8){
 							preTraitementChiffresRomains[index]=nombre.replace(m2.group(), "Chapitre "+String.valueOf(RomanNumbers.decode(m2.group())));
+							lastNumberFound=RomanNumbers.decode(m2.group());
 						}
+						aTraiter=true;
 					}
 					index++;
 				}
@@ -50,7 +64,20 @@ public class StatsPerBook {
 				for (String ligne:preTraitementChiffresRomains){
 					sb.append(ligne+"\n");
 				}
+				
 				wholeText=sb.toString();
+				if (aTraiter=true){
+					try {
+						File fileTrans =new File("./FichiersThomas/"+file.getName());
+						FileWriter writer = new FileWriter(fileTrans);
+						writer.write(wholeText);
+						writer.flush();
+						writer.close();
+					} catch (IOException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+				}
 				int nombreTotalDeChapitres=wholeText.split("Chapitre [0-9]+").length-1;
 					String []Parties=wholeText.split("\nPartie [0-9]");
 					ArrayList<String[]>chapitresParOeuvre=new ArrayList<String[]>();
